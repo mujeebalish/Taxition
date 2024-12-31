@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow: auto;
+}
+nav{
+    position: sticky;
+    top: 0px;
+    background-color: #3498db;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+
+
+}
+#searchBox{
+    width: 400px;
+
+    padding: 5px;
+    border: non10;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+}
+#logoImg {
+ width: 200px;
+}
+#ulbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+
+}
